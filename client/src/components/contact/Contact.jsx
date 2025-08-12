@@ -3,6 +3,8 @@ import { toast, ToastContainer } from "react-toastify";
 import "./Contact.css";
 import "react-toastify/dist/ReactToastify.css";
 
+const API_URL = import.meta.env.VITE_API_URL;
+
 const Contact = (props) => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -24,11 +26,12 @@ const Contact = (props) => {
             //     headers: { "Content-Type": "application/json" },
             //     body: JSON.stringify({ name, email, subject, message })
             // });
-            const res = await fetch("http://localhost:5000/api/contact", {
+            const res = await fetch(`${API_URL}/api/contact`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ name, email, subject, message })
             });
+
 
             const data = await res.json();
             if (res.ok) {
