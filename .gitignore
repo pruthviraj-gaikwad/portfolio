@@ -15,7 +15,7 @@ yarn-error.log*
 # JSON files (optional - use with caution)
 *.json
 !package.json
-
+!vercel.json
 
 # Build outputs
 dist/
