@@ -1,40 +1,40 @@
 import Work1 from "../../assets/movie_booking_application.png";
-import Work2 from "../../assets/cryptoverse.png";
-import Work3 from "../../assets/travel.png";
-import Work4 from "../../assets/blog-1.svg";
+import Work2 from "../../assets/DragonBall.png";
+import Work3 from "../../assets/qrcode.png";
+import Work4 from "../../assets/todolist.png";
 
 const Menu = [
 	{
 		id: 1,
 		image: Work1,
 		title: "Movie booking Application",
-		category: ["Frontend", "React","Backend"],
+		category: ["Frontend", "React", "Backend"],
 		url: "https://book-my-ticket-xi.vercel.app/",
-		repositoryUrl:"https://github.com/pruthviraj-gaikwad/BookMyTicket",
+		repositoryUrl: "https://github.com/pruthviraj-gaikwad/BookMyTicket",
 	},
 	{
 		id: 2,
 		image: Work2,
-		title: "Cryptoverse",
-		category: ["Frontend", "React"],
-		url: "https://cryptoverse.gregsithole.com",
-		repositoryUrl: "https://github.com/GregSithole/crypto-app"
+		title: "Dragon Ball",
+		category: ["Frontend"],
+		url: "https://js-project-flame.vercel.app/",
+		repositoryUrl: "https://github.com/pruthviraj-gaikwad/jsProject"
 	},
 	{
 		id: 3,
 		image: Work3,
-		title: "Travel Advisor",
+		title: "QR-code Generator",
 		category: ["Frontend"],
-		url: "https://travel.gregsithole.com",
-		repositoryUrl: "https://github.com/GregSithole/travel-advisor"
+		url: "https://qr-code-generator-weld-theta.vercel.app/",
+		repositoryUrl: "https://github.com/pruthviraj-gaikwad/projects/tree/main/QR%20Code"
 	},
 	{
 		id: 4,
 		image: Work4,
-		title: "Wallhaven CLI",
-		category: ["Backend"],
-		url: "https://www.npmjs.com/package/wallhaven-cli",
-		repositoryUrl: "https://github.com/GregSithole/wallhaven-cli"
+		title: "To_Do_List",
+		category: ["Frontend"],
+		url: "https://to-do-list-blush-nine-12.vercel.app/",
+		repositoryUrl: "https://github.com/pruthviraj-gaikwad/projects/tree/main/to_do_list"
 	}
 ];
 
